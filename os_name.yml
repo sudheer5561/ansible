@@ -1,6 +1,5 @@
----
-- hosts: localhost
-  connection: local
+- name: OS Name
+  hosts: all
   tasks:
   - name: print the OS name
     debug:
