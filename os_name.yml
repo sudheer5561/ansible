@@ -1,5 +1,5 @@
 - name: OS Name
-  hosts: all
+  hosts: localhost
   tasks:
   - name: print the OS name
     debug:
