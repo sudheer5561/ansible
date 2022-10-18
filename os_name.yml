@@ -1,5 +1,5 @@
 - name: OS Name
-  hosts: localhost
+  hosts: fpweb
   tasks:
   - name: print the OS name
     debug:
