@@ -1,8 +1,6 @@
----
-- hosts: fpweb
+- name: OS Name
+  hosts: all
   tasks:
-  - name: Copy File
-    win_copy:
-      src: C:\Users\sudheer.katakam\Downloads\test.txt
-      dest: C:\Users\sudheer.katakam\Downloads\dest-copy-folder
-      remote_src: yes
+  - name: print the OS name
+    debug:
+      msg: "you are running scripts on {{ ansible_system }}"
