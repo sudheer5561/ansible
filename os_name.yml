@@ -1,5 +1,5 @@
 - name: OS Name
-  hosts: jeneng10
+  hosts: fpsql
   tasks:
   - name: print the OS name
     debug:
